@@ -1,7 +1,7 @@
 #aws-key
 resource "aws_key_pair" "key_pair" {
   key_name   = "${var.env}-new-key"
-  public_key = file("sujal-key.pub")
+  public_key = file("yourkey")
 }
 
 #vpc
